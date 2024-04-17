@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MiVeterinaria" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.MiVeterinaria." parent="Base.Theme.MiVeterinaria" />
+    
+    <style name="Theme.App.SplasScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/lightbrown</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/logo</item>
+        <item name="postSplashScreenTheme">@style/Base.Theme.MiVeterinaria</item>
+    </style>
+
+
+</resources>
